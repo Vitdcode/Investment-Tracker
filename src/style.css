@@ -2,6 +2,11 @@
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 215, 215);
 }
 
 * {
@@ -57,4 +62,11 @@ body {
   to {
     max-height: 100%;
   }
+}
+
+.main-wrapper {
+  background-color: rgb(242, 237, 237);
+  height: 98vh;
+  width: 98vw;
+  border-radius: 16px;
 }

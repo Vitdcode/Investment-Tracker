@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Project Name',
+      title: 'Investment Tracker',
       template: './src/index.html',
     }),
   ],
