@@ -1,4 +1,6 @@
 :root {
+  --header-text-font-size: 1.2rem;
+  --sidebar-text-font-size: 1rem;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
   margin: 0;
   padding: 0;
   border: none;
+  font-weight: 500;
 }
 
 /* animations */
@@ -78,5 +81,42 @@ body {
   font-weight: 500;
 }
 
+/* Sidebar */
+
 .side-bar {
+  width: 30%;
+}
+
+#app-icon-and-header-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#app-icon {
+  height: 48px;
+}
+
+#overview-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#overview-wrapper h2 {
+  font-size: var(--sidebar-text-font-size);
+  /*   margin-inline: auto; */
+}
+
+.sidebar-wrapper {
+  width: 50%;
+}
+
+.sidebar-wrapper:hover {
+  cursor: pointer;
+  background-color: rgba(169, 182, 134, 0.219);
 }
